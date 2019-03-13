@@ -1,0 +1,38 @@
+.shrink-box {
+  padding: 40px 0px;
+}
+.box{
+  height: 20vh;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+.box > pre {
+  background: none;
+  color: #FFF;
+  font-size: 18px;
+  position: absolute;
+}
+.box-right {
+  text-align: right;
+  right: 0;
+}
+
+.inner-cover {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner-container{
+  display: table;
+  padding-bottom: 20px;
+}
+.highlight{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  background: none;
+}
+.thumbnail {
+  background-color: transparent !important;
+  border: none !important;
+}

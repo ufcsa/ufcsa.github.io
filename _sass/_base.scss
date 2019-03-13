@@ -1,0 +1,64 @@
+$dark-grey: #333;
+$light-cyan: #19CCAA;
+
+html, body {
+  height: 100%;
+  background-color: #FFF;
+}
+body {
+  padding-top: 55px;
+}
+body > nav {
+  color: #292929;
+  background-color: #ffffff;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+// header and navbar
+@media (min-width:768px) {
+ .navbar-default, .navbar-header, .navbar-confiner {
+   max-height: 50px;
+ }
+}
+.navbar-brand{
+  margin: 0px;
+  padding: 10px !important;
+  color: #292929;
+}
+.dropdown > a {
+  color: #292929;
+}
+.dropdown-menu > li > a {
+  color: #666 !important;
+}
+.dropdown-menu > li > a:hover {
+  color: #000 !important;
+}
+.navbar-nav>li>a:hover, .navbar-brand:hover {
+ font-size: 20px;
+ border-bottom: 2px solid transparent;
+ background-color: transparent;
+ border-bottom-color: #000;
+}
+
+// common settings
+.canvas {
+  background-color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+.container, .container .row, .container>.row>div {
+  height: 100%;
+}
+.glyphicon {
+  text-align: center;
+}
+.navbar-toggle .icon-bar {
+  background-color: #FFF
+}

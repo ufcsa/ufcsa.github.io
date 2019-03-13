@@ -21,12 +21,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://uflcsa.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: N/A
 github_username:  ufcsa
+instagram_username: N/A
+wechat_account: 佛大CSA
 
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
+sass:
+  sass_dir: _sass
+include: ['_pages']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
