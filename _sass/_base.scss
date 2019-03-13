@@ -7,6 +7,8 @@ html, body {
 }
 body {
   padding-top: 55px;
+  background: url("/assets/shufa_back_3.jpg") repeat;
+  background-size: 512px 260px;
 }
 body > nav {
   color: #292929;
@@ -45,6 +47,10 @@ a.anchor {
  background-color: transparent;
  border-bottom-color: #000;
 }
+.navbar-fixed-top {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
 
 // common settings
 .canvas {
@@ -54,11 +60,11 @@ a.anchor {
   border-radius: 3px;
 }
 .container, .container .row, .container>.row>div {
-  height: 100%;
+  // height: 100%;
 }
 .glyphicon {
   text-align: center;
 }
 .navbar-toggle .icon-bar {
-  background-color: #FFF
+  background-color: #292929;
 }
