@@ -3,3 +3,21 @@ layout: default
 title: Past Events
 permalink: /events/past/
 ---
+<div style="padding: 20px 20px 40px 20px">
+  <h1>{{ page.title }}</h1>
+  {% for post in site.posts %}
+    <div class="media">
+      <div class="media-left">
+        <a href="{{ post.url }}">
+          <img class="media-object" src="{{ post.thumbnail }}" width="300px">
+        </a>
+      </div>
+      <div class="media-body" style="padding-left: 10px">
+        <a href="{{ post.url }}">
+          <h2 class="media-heading">{{ post.title }} <small>{{ post.dateStr }}</small></h2>
+        </a>
+        <p style="font-size: 20px; margin: 15px 0px">{{ post.brief }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
