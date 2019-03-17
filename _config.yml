@@ -30,6 +30,9 @@ theme: minima
 sass:
   sass_dir: _sass
 include: ['_pages']
+collections:
+  miscs:
+    output: ture
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

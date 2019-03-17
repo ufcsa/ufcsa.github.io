@@ -1,3 +1,5 @@
+$blue-highlight: rgba(12, 56, 214, 0.8);
+
 body {
   padding-top: 55px;
   background: url("/assets/shufa_back_3.jpg") repeat;
@@ -13,7 +15,9 @@ a.anchor {
   top: -50px;
   visibility: hidden;
 }
-
+.blue-highlight {
+  color: $blue-highlight;
+}
 // header and navbar
 @media (min-width:768px) {
  .navbar-default, .navbar-header, .navbar-confiner {

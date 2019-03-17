@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3"
+  style="border-width: 3px; border-style: solid; border-color: rgb(204,204,204); padding: 3px">
+    <div style="border-width: 1px; border-style: solid; border-color: black; padding: 5px; font-size: 18px">
+      <h2 style="box-sizing: border-box; color: rgb(102,153,204)">
+        UFCSA 十佳歌手 <small>{{ page.date | date: "%b. %d, %Y" }}</small>
+      </h2>
+      <p>{{ page.brief }}</p>
+      <p>
+        无论名次，谢谢你们在繁忙的学期末为大家带来的这一场听觉盛宴。希望你们能在音乐的道路上越走越远！
+      </p>
+      <p>
+        也要感谢我们的赞助商，评委老师，主持人，摄影师，幕后工作人员，以及热情的观众们对本次活动的关注和支持！
+      </p>
+      <p style="text-align: right">
+        佛大学生会 <br />
+        {{ page.date | date: "%Y.%m.%d"}}
+      </p>
+    </div>
+  </div>
+</div>
+<div style="text-align: center">
+  {{ content }}
+</div>
