@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) {
+  .text-responsive {
+    font-size: 20px;
+  }
+  .h2-responsive {
+  }
+}
+@media screen and (max-width: 767px) {
+  .text-responsive {
+    font-size: 16px;
+  }
+  .h2-responsive {
+    font-size: 24px;
+  }
+}

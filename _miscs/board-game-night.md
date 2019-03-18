@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 桌游夜 Boardgames Night
-thumbnail: "/assets/events/boardgame_night.webp"
+thumbnail: "/assets/events/boardgame_night_min.png"
 brief: "CSA桌游夜是自2016年春季开始展开的每周五固定活动之一。我们举办的桌游夜为小伙伴们提供了一个缓解紧张学习氛围的机会，也为各位热爱桌游的同学们提供了更多的交流空间。"
 ---
 ## 活动简介
