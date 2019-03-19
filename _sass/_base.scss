@@ -15,6 +15,9 @@ a.anchor {
   top: -50px;
   visibility: hidden;
 }
+a.a-nohover {
+  text-decoration: none;
+}
 .blue-highlight {
   color: $blue-highlight;
 }
@@ -64,4 +67,13 @@ a.anchor {
 }
 .navbar-toggle .icon-bar {
   background-color: #292929;
+}
+.boxed {
+  font-size: 20px;
+  padding: 2px 8px;
+  display: inline-block;
+  border-width: 1px;
+  border-radius:10px;
+  border-style:solid;
+  border-color:#3588CC
 }
