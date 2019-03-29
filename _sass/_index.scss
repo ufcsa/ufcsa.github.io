@@ -37,7 +37,7 @@
   border: none !important;
 }
 // youtube video responsive
-.media-responsive{
+.media-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
@@ -49,4 +49,21 @@
     height:100%;
     width:100%;
     position:absolute;
+}
+// hover show dropdown
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.strip-border, .strip-border:hover, button.strip-border:active, button.strip-border:focus {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+.home-image {
+  background-image: url("/assets/home_image.png")
 }
