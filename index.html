@@ -4,8 +4,8 @@ permalink: /
 ---
 <div style="margin-bottom: 20px">
   <div class="row">
-    <div class="col-sm-6">
-      <div class="" style="text-align:center; background: transparent; padding:20px">
+    <div class="col-md-6">
+      <div class="" style="text-align:center; background: transparent; padding:40px">
         <h2>About Us</h2>
         <p style="font-size: 22px">佛大CSA是一个以非营利为目的的学生组织，主要由中国留学生组成，并且服务于广大UF留学生以及推广中国文化的影响。</p>
         <p style="font-size: 20px">Chinese Student Association (CSA) at the University of Florida
@@ -16,28 +16,53 @@ permalink: /
         </button>
       </div>
     </div>
-    <div class="col-sm-6" style="padding: 20px; text-align: center">
-	  <img src="/assets/home_image.png" style="width: 80%" />
+    <div class="col-md-6" style="padding: 20px; text-align: center">
+	    <button type="button" class="strip-border" data-toggle="modal" data-target="#csa-video">
+        <img src="/assets/home_image2.png" style="width: 80%" />
+      </button>
+       <!-- <div>Icons made by <a href="https://www.flaticon.com/<?=_('authors').'/'?>pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+         title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6" style="text-align:center">
-      <br /><br />
-      <div class="media-responsive">
-        <iframe width="480" height="270" allowfullscreen frameborder="0"
-        src="https://www.youtube.com/embed/HXIuA-8tcO8"></iframe>
+    <div class="jumbotron text-background-white" style="text-align:center;">
+      <h2>Our Mission</h2><br/>
+      <div class="hidden-xs">
+        <div style="width: 33%; float: left">
+          <p>Serve the Chinese Community</p>
+        </div>
+        <div style="width: 33%; float: left">
+          <p>Promote Chinese Culture</p>
+        </div>
+        <div style="width: 33%; float: left">
+          <p>Enrich Student Life</p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-6">
-      <div class="jumbotron" style="text-align:center; border-radius: 250px; background: transparent">
-        <h2>Our Mission</h2><br/>
-        <p>Serve the Chinese Community</p>
-        <p>Promote Chinese Culture</p>
-        <p>Enrich Student Life</p>
+      <div class="visible-xs">
+
       </div>
     </div>
   </div>
 </div>
 <div>
-  <!-- https://youtu.be/HXIuA-8tcO8 -->
+  <div class="modal fade" id="csa-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <button type="button" class="close" data-dismiss="modal"
+          aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+          <h4 class="modal-title" id="myModalLabel">A video about CSA</h4>
+        </div>
+        <div class="modal-body">
+          <div class="media-responsive">
+            <iframe width="480" height="270" allowfullscreen frameborder="0"
+            src="https://www.youtube.com/embed/HXIuA-8tcO8"></iframe>
+          </div>
+        </div>
+        <div class="modal-footer" style="text-align:center">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
