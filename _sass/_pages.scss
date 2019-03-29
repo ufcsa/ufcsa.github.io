@@ -4,6 +4,9 @@
   }
   .h2-responsive {
   }
+  .grid-adjustment-left-100-short {
+    margin-left: -100px;
+  }
 }
 @media screen and (max-width: 767px) {
   .text-responsive {
@@ -12,4 +15,9 @@
   .h2-responsive {
     font-size: 24px;
   }
+}
+.times-bold-font {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 22px;
 }
