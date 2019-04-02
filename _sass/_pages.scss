@@ -16,6 +16,9 @@
     font-size: 24px;
   }
 }
+.img-responsive {
+  max-width: 100%;
+}
 .times-bold-font {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -24,4 +27,52 @@
 .text-background-white {
   background-color: #FFF;
   border-radius: 15px;
+}
+// new_year_post styles
+.new_year_text_banner {
+	display: inline-block;
+	width: 170px;
+	height: 40px;
+	vertical-align: top;
+	overflow: hidden;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: scroll;
+	background-image: url("/assets/logo/text_banner.png");
+	box-sizing: border-box;
+}
+.diamond_banner_outer {
+	display: inline-block;
+	vertical-align: middle;
+	width: 13%;
+	box-sizing: border-box;
+}
+.new_year_diamond_banner {
+	padding: 4px;
+	display: inline-block;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	background-color: rgb(197, 36, 36);
+	box-sizing: border-box;
+}
+.diamond_banner_inner {
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0);
+	box-sizing: border-box;
+}
+.diamond_banner_text {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	width: 1.3em;
+	height: 1.3em;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: rgb(255, 255, 255);
+	box-sizing: border-box;
 }

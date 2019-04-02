@@ -62,7 +62,7 @@ a.a-nohover {
 .container, .container .row, .container>.row>div {
   // height: 100%;
 }
-.glyphicon {
+.glyphicon, .text-center, .center-headers {
   text-align: center;
 }
 .navbar-toggle .icon-bar {
@@ -76,9 +76,6 @@ a.a-nohover {
   border-radius:10px;
   border-style:solid;
   border-color:#3588CC
-}
-.center-headers {
-  text-align: center;
 }
 .circular-img {
   border-radius: 50%;
