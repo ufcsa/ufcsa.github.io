@@ -5,10 +5,10 @@ permalink: /events/past/
 ---
 <div style="padding: 20px 20px 40px 20px">
   <h1>{{ page.title }}</h1>
-  {% assign five_days = 3600 * 24 * 5 %}
+  {% assign fifteen_days = 1296000 %}
   {% for post in site.posts %}
     {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
-    {% capture posttime %}{{ post.date | date: '%s' | plus: five_days }}{% endcapture %}
+    {% capture posttime %}{{ post.date | date: '%s' | plus: fifteen_days }}{% endcapture %}
     {% if posttime < nowunix %}
       <div class="row" style="margin: 10px 0px">
         <div class="col-sm-6 col-md-4" style="padding-top: 10px">
