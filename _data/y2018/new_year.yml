@@ -1,0 +1,37 @@
+schedule:
+  - title: 开场致辞
+    brief: 佛罗里达大学校长 Dr. Kent Fuchs 为UF的中国留学生和甘村华人们送上了新年祝福。
+    image: uf_president.jpg
+  - title: 水袖舞
+    brief: 两位来自华根中文学校的高中生表演的水袖舞 - 水月洛神（片段）<br/> 水袖讲究身韵合一，身姿摇曳，神韵必备。不知两位同学的演出和令三国时期陈思王，曹植魂牵梦萦的洛神 (宓妃) 相差有无？
+    image: chinese_dance.jpg
+  - title: 三傻闹剧
+    brief: 随后是由海鑫，刘逸南，金泽原，Ivan带来的小品 -《三傻闹剧》<br/> 四位同学的表演都相当具有爆发力，惹得现场观众无不开怀大笑。其中海鑫同学不惜反串，以求塑造完美角色（悄悄地给“女装大佬”递茶
+    image: drama.jpg
+  - title: 舞蹈社
+    brief: 春晚怎么能少了CSA舞蹈社Meteor.S的小姐姐们呢？从流行到古典舞，各个舞种都驾轻就熟，令人目不转睛。
+    image: meteor_dance.jpg
+  - title: F4抖音合集
+    brief: 2018年你的朋友圈是否被抖音刷过屏？佛大 “F4” 为大家表演的抖音舞蹈Remix将这些洗脑神曲用崭新的方式呈现在了大家的眼前~
+    image: tik_tok_remix.jpg
+  - title: 阿卡贝拉社
+    brief: 阿卡贝拉社为大家带来了两个优秀的节目，分别是音乐剧《少年心气》以及 人声合唱 《告白气球》<br/> 虽有李贺“莫道韶华镇长在，发白面皱专相待”，随着年华逝去，面容上的变化是不可避免的，但希望几十年后，当有人问起“廉颇老矣，尚能饭否”之时，蛰伏许久的初心仍会破土重生，带给大家力量。
+    image: a_capella.jpg
+    brief2: 而告白气球则带给我们一个青涩而又甜蜜的恋爱心情，就像是咱们佛州盛产的柑橘，清甜中夹杂着微微的酸涩。
+  - title: 民乐社
+    brief: 民乐社在这次的晚会也是大放异彩。一曲融合了中国元素的《千本樱》可谓丝竹管弦韵悠扬。
+    image: chinese_music.jpg
+    brief2: 而2018年也是离别的一年。为了纪念金庸先生，民乐社一曲《金庸串烧》演奏了金庸先生《射雕英雄传》、《神雕侠侣》、《倚天屠龙记》等影视改编作品中的经典乐曲。
+  - title: 魔术表演
+    brief: 接下来，就是见证奇迹的时刻。魔术师王邦神秘又不失幽默的表演引得满堂喝彩。
+    image: magic.jpg
+hosts: 谢贤子、白梓晨、牛紫薇、李元、宋玫婷、赵佳琳
+photographers: KiKi、黄肖恩 、Debbie 、张睿涵 、李鸣妹
+sponsors:
+  - name: BRC求职
+  - name: Bank of America
+  - name: 中国电信
+  - name: ISO学生健康医疗保险
+  - name: 远行车行
+  - name: UF Student Government
+staff_gathering_img: everyone.jpg
