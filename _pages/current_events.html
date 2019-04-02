@@ -1,25 +1,38 @@
 ---
 layout: default
-title: What's Happening Now
+title: Recent Events
 permalink: /events/current/
 ---
 <div style="padding: 20px 20px 40px 20px; font-size: 20px">
   <h1>{{ page.title }}</h1>
+  {% assign fifteen_days = 3600 * 24 * 5 %}
+  {% assign current_events = 0 %}
   {% for post in site.posts %}
-    <div class="row" style="padding: 10px">
-      <div class="col-sm-6 col-md-4">
-        <a href="{{ post.url }}">
-          <img src="{{ post.thumbnail }}" width="300px" style="max-width: 100%">
-        </a>
+    {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
+    {% capture posttime %}{{ post.date | date: '%s' | plus: fifteen_days }}{% endcapture %}
+    {% if posttime >= nowunix %}
+      {% capture _ %}{{ increment current_events }}{% endcapture %}
+      <div class="row" style="padding: 10px">
+        <div class="col-sm-6 col-md-4">
+          <a href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}" width="300px" style="max-width: 100%">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-8 text-background-white" style="margin-top: 10px">
+          <a href="{{ post.url }}">
+            <h2 class="h2-responsive">{{ post.title }} <small>{{ post.dateStr }}</small></h2>
+          </a>
+          <p class="text-responsive" style="margin: 15px 0px">{{ post.brief }}</p>
+        </div>
       </div>
-      <div class="col-sm-6 col-md-8 text-background-white" style="margin-top: 10px">
-        <a href="{{ post.url }}">
-          <h2 class="h2-responsive">{{ post.title }} <small>{{ post.dateStr }}</small></h2>
-        </a>
-        <p class="text-responsive" style="margin: 15px 0px">{{ post.brief }}</p>
-      </div>
-    </div>
+    {% endif %}
   {% endfor %}
+  {% if current_events == 0 %}
+    <div class="text-center">
+      <p class="text-responsive">Oops! There is no big event happening in a few days.
+        Check out the <a href="/events/past/" class="a-nohover">past events</a> page!</p>
+    </div>
+  {% endif %}
   {% assign board-game-night = site.miscs.board-game-night %}
   <!-- {% for board-game-night in site.miscs %} -->
   <h1>Long-term Events</h1>
