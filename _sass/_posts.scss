@@ -1,0 +1,24 @@
+.announcement-box-wrapper {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(204,204,204);
+  padding: 3px;
+}
+.announcement-box-inner {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 5px 20px;
+  font-size: 18px;
+  background-color: #FFF;
+}
+.special-box-wrapper {
+	display: inline-block;
+	padding-top: 3px;
+	box-sizing: border-box;
+}
+.special-box {
+	border-top: 3px solid rgb(249, 110, 87);
+	border-bottom: 3px solid rgb(249, 110, 87);
+	box-sizing: border-box;
+}

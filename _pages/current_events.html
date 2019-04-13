@@ -5,13 +5,13 @@ permalink: /events/current/
 ---
 <div style="padding: 20px 20px 40px 20px; font-size: 20px">
   <h1>{{ page.title }}</h1>
-  {% assign fifteen_days = 3600 * 24 * 5 %}
+  {% assign fifteen_days = 1296000 %}
   {% assign current_events = 0 %}
   {% for post in site.posts %}
     {% capture nowunix %}{{ 'now' | date: '%s' }}{% endcapture %}
     {% capture posttime %}{{ post.date | date: '%s' | plus: fifteen_days }}{% endcapture %}
     {% if posttime >= nowunix %}
-      {% capture _ %}{{ increment current_events }}{% endcapture %}
+      {% assign current_events = current_events | plus: 1 %}
       <div class="row" style="padding: 10px">
         <div class="col-sm-6 col-md-4">
           <a href="{{ post.url }}">
