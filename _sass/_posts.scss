@@ -22,3 +22,50 @@
 	border-bottom: 3px solid rgb(249, 110, 87);
 	box-sizing: border-box;
 }
+.mid_autumn-outter {
+  box-shadow: rgb(153, 166, 171) 0.866025px 0.5px 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+.mid_autumn-pre {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	background-color: rgba(233, 216, 180, 0.76);
+	box-sizing: border-box;
+}
+.mid_autumn-art {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	vertical-align: top;
+	overflow: hidden;
+	background-image: url("/assets/cliparts/moon.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: scroll;
+	padding: 10px;
+	box-shadow: rgb(0, 0, 0) 0px 0px 0px;
+	box-sizing: border-box;
+}
+.mid_autumn-art2 {
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	vertical-align: top;
+	overflow: hidden;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: scroll;
+	background-image: url("/assets/cliparts/moon2.png");
+	box-sizing: border-box;
+}
+.mid_autumn-art3 {
+	vertical-align: middle;
+	box-sizing: border-box;
+	height: auto !important;
+	visibility: visible !important;
+  margin-top: -60px;
+}

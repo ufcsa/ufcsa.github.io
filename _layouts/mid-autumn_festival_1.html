@@ -1,3 +1,51 @@
 ---
 layout: default
 ---
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3 announcement-box-wrapper">
+    <div class="announcement-box-inner">
+      <h2 style="box-sizing: border-box; color: rgb(102,153,204)">
+        {{ page.title }} <small>{{ page.date | date: "%b. %d, %Y" }}</small>
+      </h2><br/>
+      <p>{{ page.brief }}</p>
+      <p>
+        感谢我们的赞助商，各位发言人，主持人，摄影师，幕后工作人员，以及热情的观众们对本次活动的关注和支持！
+      </p>
+      <p style="text-align: right">
+        佛大学生会 <br />
+        {{ page.date | date: "%Y.%m.%d"}}
+      </p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <div class="mid_autumn-outter">
+      <div class="mid_autumn-pre" style="height: 50px"></div>
+      <div class="mid_autumn-pre">
+        <div class="mid_autumn-art" style="height: 100px; margin-top: 10px">
+          <p><strong>{{ page.date | date: "%Y" }}</strong></p>
+          <p><strong>CSA中秋晚会</strong></p>
+          <p><strong>圆满落幕</strong></p>
+        </div>
+      </div>
+      <div class="mid_autumn-pre" style="height: 50px;"></div>
+      <div class="mid_autumn-pre" style="text-align: center">
+        {{ content }}
+      </div>
+      <div class="mid_autumn-pre" style="height: 50px"></div>
+      <div class="mid_autumn-pre" style="height: 180px">
+        <div class="mid_autumn-art2">
+          <div style="margin: 60px 0px 0px">
+            <p><strong>本次中秋晚会已圆满落幕</strong></p>
+            <p><strong>祝大家学业工作顺利！</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="mid_autumn-pre" style="height: 215px">
+        <img src="/assets/cliparts/flower.png" class="mid_autumn-art3" />
+      </div>
+      <div class="mid_autumn-pre" style="height: 50px"></div>
+    </div>
+  </div>
+</div>
