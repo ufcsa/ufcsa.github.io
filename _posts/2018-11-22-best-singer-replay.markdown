@@ -3,7 +3,7 @@ layout: best_singer_layout_1
 title:  "【回放】十佳歌手决赛现场回放"
 date:   2018-11-22 18:00:00 -0500
 dateStr: "Nov. 22, 2018"
-thumbnail: "/assets/by_year/fa2018-sp2019/best_singer/staff_gathering.jpg"
+thumbnail: "/assets/events/best_singer.jpg"
 brief: "11月18日，十佳歌手圆满落幕。比赛紧张激烈，但选手们依然在现场发挥出了自己的特色，给现场观众带去了曲风不同、独特动听的歌声。感谢每一位选手的努力和付出！"
 categories: best-singer videos fall-18
 ---
