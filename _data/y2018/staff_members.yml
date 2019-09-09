@@ -10,9 +10,6 @@ secretary:
   first_name: Yue
   last_name: Li
   picture: Liyue.jpg
-  # - first_name: Yuan
-  #   last_name: Li
-  #   picture: Liyuan.jpg
 treasurer:
   first_name: Min
   last_name: Lin
