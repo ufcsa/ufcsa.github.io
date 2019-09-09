@@ -1,43 +1,43 @@
 president:
-  first_name: Zhonglin
-  last_name: Lai
-  picture: Laizhonglin.jpg
+  first_name: Jiabin
+  last_name: Du
+  picture: Dujiabin.jpg
 vice_president:
-  first_name: Yichen
+  first_name: Yuan
   last_name: Li
-  picture: Liyichen.jpg
+  picture: Liyuan.jpg
 secretary:
   - first_name: Yue
     last_name: Li
     picture: Liyue.jpg
-  - first_name: Yuan
-    last_name: Li
-    picture: Liyuan.jpg
+  # - first_name: Yuan
+  #   last_name: Li
+  #   picture: Liyuan.jpg
 treasurer:
   first_name: Min
   last_name: Lin
   picture: Linmin.jpg
 media_director:
-  first_name: Bingyu
-  last_name: Li
+  first_name: Shuyue
+  last_name: Deng
   picture: Libingyu.jpg
 student_service:
-  first_name: Jiabin
-  last_name: Du
-  picture: Dujiabin.jpg
-it_director:
-  first_name: Zhongkai
-  last_name: Liu
-  picture: Liuzhongkai.jpg
-event_planning:
-  first_name: Yida
+  first_name: Xinlin
   last_name: Wang
-  picture: Wangyida.jpg
+  picture: Wangxinlin.jpg
+it_director:
+  first_name: Yinghan
+  last_name: Ma
+  picture: Mayinghan.jpg
+event_planning:
+  first_name: Shuyan
+  last_name: Xia
+  picture: Xiashuyan.jpg
 public_relations:
-  first_name: Zhixin
-  last_name: Xu
-  picture: Xuzhixin.jpg
+  first_name: Yiling
+  last_name: Zhang
+  picture: Zhangyiling.jpg
 fundraising:
-  first_name: Ke
-  last_name: Luo
-  picture: Luoke.jpg
+  first_name: Runhan
+  last_name: Sun
+  picture: Sunrunhan.jpg
