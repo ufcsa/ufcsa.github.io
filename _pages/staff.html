@@ -34,14 +34,16 @@ permalink: /about/staff/
           <strong>财长</strong>
         </p>
       </div>
+      {% for secretary in staff_members.secretary %}
       <div class="col-sm-3 col-sm-offset-1">
         <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.secretary.picture }}" /><br/>
-        <p>{{ staff_members.secretary.first_name }} {{ staff_members.secretary.last_name }}<br/>
+        src="/assets/people/{{ secretary.picture }}" /><br/>
+        <p>{{ secretary.first_name }} {{ secretary.last_name }}<br/>
           <span class="times-bold-font">Secretary</span><br/>
           <strong>秘书</strong>
         </p>
       </div>
+      {% endfor %}
     </div>
     <div class="row">
       <div class="col-sm-3 col-sm-offset-2">
