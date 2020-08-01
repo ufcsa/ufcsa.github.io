@@ -3,99 +3,164 @@ layout: default
 title: CSA Staff Members
 permalink: /about/staff/
 ---
+
 {% assign staff_members = site.data.y2018.staff_members %}
 <div style="margin: 40px 20px; text-align: center; font-size: 20px;">
-  <h1 style="margin-bottom: 40px;">2019-2020 Executive Board Members</h1>
-  <div class="grid-adjustment-left-100-short">
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-3">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.president.picture }}" /><br/>
-        <p>{{ staff_members.president.first_name }} {{ staff_members.president.last_name }}<br/>
-          <span class="times-bold-font">President</span><br/>
-          <strong>主席</strong>
-        </p>
-      </div>
-      <div class="col-sm-3 col-sm-offset-1">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.vice_president.picture }}" /><br/>
-        <p>{{ staff_members.vice_president.first_name }} {{ staff_members.vice_president.last_name }}<br/>
-          <span class="times-bold-font">Vice President</span><br/>
-          <strong>副主席</strong>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-2">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.treasurer.picture }}" /><br/>
-        <p>{{ staff_members.treasurer.first_name }} {{ staff_members.treasurer.last_name }}<br/>
-          <span class="times-bold-font">Treasurer</span><br/>
-          <strong>财长</strong>
-        </p>
-      </div>
-      {% for secretary in staff_members.secretary %}
-      <div class="col-sm-3">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ secretary.picture }}" /><br/>
-        <p>{{ secretary.first_name }} {{ secretary.last_name }}<br/>
-          <span class="times-bold-font">Secretary</span><br/>
-          <strong>秘书</strong>
-        </p>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-2">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.media_director.picture }}" /><br/>
-        <p>{{ staff_members.media_director.first_name }} {{ staff_members.media_director.last_name }}<br/>
-          <span class="times-bold-font">Media Director</span><br/>
-          <strong>设计部长</strong>
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.fundraising.picture }}" /><br/>
-        <p>{{ staff_members.fundraising.first_name }} {{ staff_members.fundraising.last_name }}<br/>
-          <span class="times-bold-font">Fundraising Director</span><br/>
-          <strong>外联部长</strong>
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.event_planning.picture }}" /><br/>
-        <p>{{ staff_members.event_planning.first_name }} {{ staff_members.event_planning.last_name }}<br/>
-          <span class="times-bold-font">Event Planning Director</span><br/>
-          <strong>活动部长</strong>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-2">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.student_service.picture }}" /><br/>
-        <p>{{ staff_members.student_service.first_name }} {{ staff_members.student_service.last_name }}<br/>
-          <span class="times-bold-font">Student Service Director</span><br/>
-          <strong>服务部长</strong>
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.public_relations.picture }}" /><br/>
-        <p>{{ staff_members.public_relations.first_name }} {{ staff_members.public_relations.last_name }}<br/>
-          <span class="times-bold-font">Public Relations Director</span><br/>
-          <strong>协作部长</strong>
-        </p>
-      </div>
-      <div class="col-sm-3">
-        <img class="circular-img" width="150px"
-        src="/assets/people/{{ staff_members.it_director.picture }}" /><br/>
-        <p>{{ staff_members.it_director.first_name }} {{ staff_members.it_director.last_name }}<br/>
-          <span class="times-bold-font">IT Director</span><br/>
-          <strong>IT部长</strong>
-        </p>
-      </div>
-    </div>
-  </div>
+	<h1 style="margin-bottom: 40px;">2020-2021 Executive Board Members</h1>
+	<div class="grid-adjustment-left-100-short">
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-3">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.president.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.president.first_name }} {{
+					staff_members.president.last_name }}<br />
+					<span class="times-bold-font">President</span><br />
+					<strong>主席</strong>
+				</p>
+			</div>
+			<div class="col-sm-3 col-sm-offset-1">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.vice_president.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.vice_president.first_name }} {{
+					staff_members.vice_president.last_name }}<br />
+					<span class="times-bold-font">Vice President</span><br />
+					<strong>副主席</strong>
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-2">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.treasurer.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.treasurer.first_name }} {{
+					staff_members.treasurer.last_name }}<br />
+					<span class="times-bold-font">Treasurer</span><br />
+					<strong>财长</strong>
+				</p>
+			</div>
+			{% for secretary in staff_members.secretary %}
+			<div class="col-sm-3">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ secretary.picture }}"
+				/><br />
+				<p>
+					{{ secretary.first_name }} {{ secretary.last_name }}<br />
+					<span class="times-bold-font">Secretary</span><br />
+					<strong>秘书</strong>
+				</p>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-2">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.media_director.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.media_director.first_name }} {{
+					staff_members.media_director.last_name }}<br />
+					<span class="times-bold-font">Media Director</span><br />
+					<strong>宣传部长</strong>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.fundraising.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.fundraising.first_name }} {{
+					staff_members.fundraising.last_name }}<br />
+					<span class="times-bold-font">Fundraising Director</span><br />
+					<strong>外联部长</strong>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.event_planning.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.event_planning.first_name }} {{
+					staff_members.event_planning.last_name }}<br />
+					<span class="times-bold-font">Event Planning Director</span><br />
+					<strong>活动部长</strong>
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-2">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.student_service.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.student_service.first_name }} {{
+					staff_members.student_service.last_name }}<br />
+					<span class="times-bold-font">Student Service Director</span><br />
+					<strong>服务部长</strong>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.public_relations.picture }}"
+				/><br />
+				<p>
+					{{ staff_members.public_relations.first_name }} {{
+					staff_members.public_relations.last_name }}<br />
+					<span class="times-bold-font">Public Relations Director</span><br />
+					<strong>协作部长</strong>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.it_director[0].picture }}"
+				/><br />
+				<p>
+					{{ staff_members.it_director[0].first_name }} {{
+					staff_members.it_director[0].last_name }}<br />
+					<span class="times-bold-font">IT Director</span><br />
+					<strong>IT部长</strong>
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-5">
+				<img
+					class="circular-img"
+					width="150px"
+					src="/assets/people/{{ staff_members.it_director[1].picture }}"
+				/><br />
+				<p>
+					{{ staff_members.it_director[1].first_name }} {{
+					staff_members.it_director[1].last_name }}<br />
+					<span class="times-bold-font">IT Director</span><br />
+					<strong>IT部长</strong>
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
