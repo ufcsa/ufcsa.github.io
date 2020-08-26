@@ -26,12 +26,9 @@ student_service:
   last_name: Zhu
   picture: Zhuyu.jpg
 it_director:
-  - first_name: Shida
-    last_name: Yang
-    picture: Yangshida.jpg
-  - first_name: Yanghaoyu
-    last_name: Chen
-    picture: Chenyanghaoyu.jpg
+  first_name: Shida
+  last_name: Yang
+  picture: Yangshida.jpg
 event_planning:
   first_name: Yuchen
   last_name: Huang
