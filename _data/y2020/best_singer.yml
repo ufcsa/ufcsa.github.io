@@ -1,0 +1,40 @@
+part-1:
+  - brief2: "首先，CSA的老朋友 President Kent Fuchs 协学校各大组织向中国学生新生们表示热烈欢迎。"
+    img: "battle1.png"
+  - brief2: "同时，学校各大机构，例如Global Connections 、Student Government 分别介绍了自己的特点和功能。"
+    img: "global_connections.png"
+
+
+award:
+  - singer_award: "一等奖 Iphone12 256G（折合美金约$1048)"
+  - singer_award: "二等奖 iPad air4  256G（约$802)"
+  - singer_award: "三等奖 Switch普通版（约$499)"
+  - singer_award: "第四名 air pods pro（约$266)"
+  - singer_award: "第五,六名 Home pod mini（约$106)"
+  - pic: "bestsinger2020.png"
+
+
+
+
+
+
+star_judges:
+  - name: "赵大格"
+    introduction: "2015年，参加浙江卫视《中国好声音第四季》的比赛，获得庾澄庆组亚军、全国总决赛第七名。《我在人民广场吃炸鸡》一曲赢得4位导师的认可。后发表单曲《晕船》，《who cares》，《对不起》等。"
+    pic: "zhaodage.jpg"
+
+  - name: "袁惜君"
+    introduction: "中国内地华语流行女歌手、演员，毕业于广州星海音乐学院。代表作《我的幸福在哪里》，《乖乖爱》，《不在我身边》。"
+    pic: "yuanxijun.png"
+
+  - name: "郑俊树"
+    introduction: "2014年7月参加第三季中国好声音获得三位导师的转身；《新声请指教》伯克利音乐学院战队学员，好评不断。"
+    pic: "zhenjunshu.png"
+       
+
+sponsor:
+  - text: "最后感谢Student Medicover，CS暑校，美洲电信，以及远行车行对本活动的大力支持。"
+    pic: "sponser.jpg"
+
+final-word:
+  final: "感谢各位在场的同学们对本次活动的积极参与，希望大家在新的一年里继续支持UFCSA的工作，我们会继续为佛大广大华人学生谋福利的！"
