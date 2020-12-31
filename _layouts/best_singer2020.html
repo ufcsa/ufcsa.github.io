@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3 announcement-box-wrapper">
+    <div class="announcement-box-inner">
+      <h2 style="box-sizing: border-box; color: rgb(102,153,204)">
+        {{ page.title }} <small>{{ page.date | date: "%b. %d, %Y" }}</small>
+      </h2><br/>
+      <p>{{ page.brief }}</p>
+      <p>
+        感谢我们的赞助商，各位发言人，主持人，摄影师，幕后工作人员，以及热情的观众们对本次活动的关注和支持！
+      </p>
+      <p style="text-align: right">
+        佛大学生会 <br />
+        {{ page.date | date: "%Y.%m.%d"}}
+      </p>
+    </div>
+  </div>
+</div>
+<div style="text-align: center">
+  {{ content }}
+</div>
