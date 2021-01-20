@@ -1,0 +1,43 @@
+contest_rules:
+  - content: "本次大赛分为初赛、决赛两场，均为线上参与，欢迎此刻在世界各地、喜欢唱歌的UF学生报名。不管你想安安静静地哼你喜欢的歌，还是想用歌声炸翻全场，这里有人听你唱。"
+
+scoring_rules:
+  - sub: "评审方式："
+    content: "参赛作品集齐后由CSA特邀五位评委打分，其中去掉一个最高分、去掉一个最低分、剩余分数取平均分作为最终评分结果。初赛评分最高的十二名选手被评为“十二强歌手”入围本次大赛决赛。"
+  - sub: "初赛评委："
+  - sub: "王新霖："
+    content: "2018UF十佳歌手冠军原创音乐社主唱，UF阿卡贝拉社成员"
+  - sub: "Kevin Yu: "
+    content: "CSA原创音乐社社长兼鼓手——致力于打造一个专属于留学生的音乐平台，提供自由创作的空间， 宣扬live house文化"
+  - sub: "蔡文璇："
+    content: "2019UF十佳歌手冠军"
+  - sub: "魏紫薇："
+    content: "2018UF十佳歌手亚军，前UFCSA阿卡贝拉社副社长"
+  - sub: "覃茂耕："
+    content: "前UFCSA阿卡贝拉社社长"
+
+videos:
+  - name: "王焜耀"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756682&page=1
+  - name: "宋梓晴"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756274&page=2
+  - name: "聂展鹏"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756282&page=3 
+  - name: "秦强"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756928&page=4
+  - name: "杜嘉明"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284757062&page=5
+  - name: "杨长江"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284757189&page=6
+  - name: "古定弘"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756326&page=7
+  - name: "黄世源"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284757332&page=8
+  - name: "陈涵之"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284757380&page=9
+  - name: "潘星言"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756333&page=10
+  - name: "Tianwei Xie"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284756494&page=11
+  - name: "孙嘉韵"
+    src: //player.bilibili.com/player.html?aid=288626697&bvid=BV1df4y1r7fY&cid=284757745&page=12
