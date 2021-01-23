@@ -1,6 +1,6 @@
 ---
 layout: best_singer_layout_1
-title:  "UFCSA 2020秋季十佳歌手初赛人气选拔"
+title:  "【回放】UFCSA 2020秋季十佳歌手初赛人气选拔"
 date:   2020-12-13 00:00:00 +0800
 dateStr: "Dec. 13, 2020"
 thumbnail: "/assets/by_year/fa2020-sp2021/best_singer2020_pre/cover_pic.png"

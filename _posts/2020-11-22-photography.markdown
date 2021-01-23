@@ -1,6 +1,6 @@
 ---
 layout: photography_2020
-title:  "“疫情中的我们” 摄影大赛获奖名单揭晓！"
+title:  "【回顾】“疫情中的我们” 摄影大赛获奖名单揭晓！"
 date:   2020-11-22 00:00:00 +0800
 dateStr: "Nov. 22, 2020"
 thumbnail: "/assets/by_year/fa2020-sp2021/photography/cover.jpg"

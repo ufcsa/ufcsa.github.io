@@ -1,6 +1,6 @@
 ---
 layout: best_singer2020
-title:  "记得去哔哩哔哩看CSA十佳歌手总决赛"
+title:  "【预告】记得去哔哩哔哩看CSA十佳歌手总决赛"
 date:   2020-12-30 00:00:00 +0800
 dateStr: "Dec. 30, 2020"
 thumbnail: "/assets/events/bestsinger2020.jpg"
