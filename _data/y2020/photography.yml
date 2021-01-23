@@ -1,0 +1,7 @@
+top_three_photos:
+  - name: "第一名 - 未命名"
+    img: "1.jpg"
+  - name: "第二名 - 镜中的2020"
+    img: "2.jpg"
+  - name: "第三名 - 看到希望"
+    img: "3.jpg"

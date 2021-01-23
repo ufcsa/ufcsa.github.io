@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3 announcement-box-wrapper">
+    <div class="announcement-box-inner">
+      <h2 style="box-sizing: border-box; color: rgb(102,153,204)">
+        {{ page.title }} <small>{{ page.date | date: "%b. %d, %Y" }}</small>
+      </h2>
+      <br/>
+      <p>
+        经过评委打分以及大众投票两个环节，以下作品脱颖而出，荣获前三。
+      </p>
+      <p style="text-align: right">
+        佛大学生会 <br />
+        {{ page.date | date: "%Y.%m.%d"}}
+      </p>
+    </div>
+  </div>
+</div>
+<div style="text-align: center">
+  {{ content }}
+</div>
