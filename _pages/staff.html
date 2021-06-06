@@ -41,26 +41,26 @@ permalink: /about/staff/
 				<img
 					class="circular-img"
 					width="150px"
-					src="/assets/people/{{ staff_members.treasurer.picture }}"
+					src="/assets/people/{{ staff_members.secretary.picture }}"
 				/><br />
 				<p>
-					{{ staff_members.treasurer.first_name }} {{
-					staff_members.treasurer.last_name }}<br />
-					<span class="times-bold-font">Treasurer</span><br />
-					<strong>财长</strong>
+					{{ staff_members.secretary.first_name }} {{
+					staff_members.secretary.last_name }}<br />
+					<span class="times-bold-font">Secretary</span><br />
+					<strong>秘书</strong>
 				</p>
 			</div>
-			{% for secretary in staff_members.secretary %}
+			{% for treasurer in staff_members.treasurer %}
 			<div class="col-sm-3">
 				<img
 					class="circular-img"
 					width="150px"
-					src="/assets/people/{{ secretary.picture }}"
+					src="/assets/people/{{ treasurer.picture }}"
 				/><br />
 				<p>
-					{{ secretary.first_name }} {{ secretary.last_name }}<br />
-					<span class="times-bold-font">Secretary</span><br />
-					<strong>秘书</strong>
+					{{ treasurer.first_name }} {{ treasurer.last_name }}<br />
+					<span class="times-bold-font">Treasurer</span><br />
+					<strong>财长</strong>
 				</p>
 			</div>
 			{% endfor %}
@@ -140,8 +140,8 @@ permalink: /about/staff/
 					src="/assets/people/{{ staff_members.it_director.picture }}"
 				/><br />
 				<p>
-					{{ staff_members.it_director[0].first_name }} {{
-					staff_members.it_director[0].last_name }}<br />
+					{{ staff_members.it_director.first_name }} {{
+					staff_members.it_director.last_name }}<br />
 					<span class="times-bold-font">IT Director</span><br />
 					<strong>IT部长</strong>
 				</p>
