@@ -1,43 +1,43 @@
 president:
   first_name: Xingyan
   last_name: Pan
-  picture: PanXingyan.jpg
+  picture: Panxingyan.jpg
 vice_president:
   first_name: Isabel
   last_name: Ku
-  picture: KuIsabel.jpg
+  picture: Kuisabel.jpg
 secretary:
   first_name: Wenchun
   last_name: Zhang
-  picture: ZhangWenchun.jpg
+  picture: Zhangwenchun.jpg
 treasurer:
   - first_name: Wenjing
     last_name: Zhang
-    picture: ZhangWenjing.jpg
+    picture: Zhangwenjing.jpg
   - first_name: Mingyang
     last_name: Xu
-    picture: XuMingyang.jpg
+    picture: Xumingyang.jpg
 media_director:
   first_name: Zhihua
   last_name: Qu
-  picture: QuZhihua.jpg
+  picture: Quzhihua.jpg
 student_service:
   first_name: Yixuan
   last_name: He
-  picture: HeYixuan.jpg
+  picture: Heyixuan.jpg
 it_director:
   first_name: Haohui
   last_name: Bao
-  picture: BaoHaohui.jpg
+  picture: Baohaohui.jpg
 event_planning:
   first_name: Xiaoyu
   last_name: Guan
-  picture: GuanXiaoyu.jpg
+  picture: Guanxiaoyu.jpg
 public_relations:
   first_name: Zhiqing
   last_name: Qu
-  picture: QuZhiqing.jpg
+  picture: Quzhiqing.jpg
 fundraising:
   first_name: Wanhua
   last_name: Wang
-  picture: WangWanhua.jpg
+  picture: Wangwanhua.jpg
