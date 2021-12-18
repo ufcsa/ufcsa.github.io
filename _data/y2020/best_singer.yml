@@ -13,7 +13,17 @@ award:
   - singer_award: "第五,六名 Home pod mini（约$106)"
   - pic: "bestsinger2020.png"
 
-
+result:
+  - singer: "第一名：古定弘-刻在我心底的名字"
+  - singer: "第二名：孙嘉韵-多远都要在一起" 
+  - singer: "第三名：谢天伟-夏天的风"
+  - singer: "第四名：秦强-贝加尔湖畔" 
+  - singer: "第五名：陈涵之-父亲写的散文诗"
+  - singer: "第六名：杜嘉明-友情岁月"
+  - singer: "第七名：宋梓晴-易燃易爆炸"
+  - singer: "第八名：杨长江-太阳" 
+  - singer: "第九名：潘星言-烟火里的尘埃"
+  - singer: "第十名：聂展鹏-童话"
 
 
 

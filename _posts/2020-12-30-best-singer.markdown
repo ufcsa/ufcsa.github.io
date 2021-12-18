@@ -1,10 +1,10 @@
 ---
 layout: best_singer2020
-title:  "【预告】记得去哔哩哔哩看CSA十佳歌手总决赛"
-date:   2020-12-30 00:00:00 +0800
-dateStr: "Dec. 30, 2020"
+title:  "【回放】UFCSA 2020十佳歌手总决赛现场"
+date:   2021-01-03 00:00:00 +0800
+dateStr: "Jan. 03, 2021"
 thumbnail: "/assets/events/bestsinger2020.jpg"
-brief: "美东2021年1月1日晚9:40/国内2021年1月2日早10:40 十佳歌手决赛， 不见不散！"
+brief: "十佳歌手决赛回放， 尽情感受当晚的现场气氛吧！"
 categories: best_singer fall-20
 ---
 {% assign best_singer = site.data.y2020.best_singer %}
@@ -12,11 +12,29 @@ categories: best_singer fall-20
 
 <div class="row">
   <div class="col-sm-6 col-sm-offset-3" style="padding: 20px">
-      <h3>经过层层筛选，共12名选手脱颖而出，迎来最终的battle。
-    决赛将在bilibili直播同步播出，届时会在佛大学生群里分享观赛链接，请拭目以待！</h3>
+      <h3>决赛回放可在bilibili上观看，尽情感受当晚的现场气氛吧！</h3>
   </div>
 </div>
 
+<div style="margin: 40px; font-size: 16px">
+  <h3 class="blue-highlight">决赛结果</h3>
+    {% for res in best_singer["result"] %}
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3" style="padding: 1px" align="left">
+        <p>{{ res.singer }}</p>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+
+<div style="margin: 40px; font-size: 16px">
+  <h3 class="blue-highlight">决赛回放</h3>
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3" style="padding: 1px">
+            <iframe width="540" height="360" src="//player.bilibili.com/player.html?aid=671105766&bvid=BV1zU4y1x7jV&cid=277678573&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        </div>
+    </div>
+</div>
 
 <div class="text-responsive" style="margin: 40px">
   <div class="special-box-wrapper">
