@@ -7,37 +7,37 @@ vice_president:
   last_name: Ku
   picture: Kuisabel.jpg
 secretary:
-  first_name: Wenchun
+  first_name: Wenchun(Gloria)
   last_name: Zhang
   picture: Zhangwenchun.jpg
 treasurer:
   - first_name: Wenjing
     last_name: Zhang
     picture: Zhangwenjing.jpg
-  - first_name: Mingyang
-    last_name: Xu
-    picture: Xumingyang.jpg
+  - first_name: Ziqi
+    last_name: Feng
+    picture: ../logo/orig.png
 media_director:
-  first_name: Zhihua
-  last_name: Qu
-  picture: Quzhihua.jpg
+  first_name: Xinyue(Serena)
+  last_name: Wang
+  picture: Wangxinyue.jpg
 student_service:
   first_name: Yixuan
   last_name: He
   picture: Heyixuan.jpg
 it_director:
-  first_name: Haohui
-  last_name: Bao
-  picture: Baohaohui.jpg
+  first_name: Xin
+  last_name: Hai
+  picture: Haixin.jpg
 event_planning:
-  first_name: Xiaoyu
+  first_name: Xiaoyu(Shery)
   last_name: Guan
   picture: Guanxiaoyu.jpg
-public_relations:
-  first_name: Zhiqing
+campus_outreach:
+  first_name: Zhiqing(Susan)
   last_name: Qu
   picture: Quzhiqing.jpg
-fundraising:
-  first_name: Wanhua
+public_relations:
+  first_name: Wanhua(Julia)
   last_name: Wang
   picture: Wangwanhua.jpg
