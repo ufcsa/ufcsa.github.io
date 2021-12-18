@@ -18,26 +18,26 @@ treasurer:
     last_name: Xu
     picture: Xumingyang.jpg
 media_director:
-  first_name: Zhihua
-  last_name: Qu
+  first_name: Xinyue(Serena)
+  last_name: Wang
   picture: Quzhihua.jpg
 student_service:
   first_name: Yixuan
   last_name: He
   picture: Heyixuan.jpg
 it_director:
-  first_name: Haohui
-  last_name: Bao
+  first_name: Xin
+  last_name: Hai
   picture: Baohaohui.jpg
 event_planning:
   first_name: Xiaoyu
   last_name: Guan
   picture: Guanxiaoyu.jpg
 public_relations:
-  first_name: Zhiqing
+  first_name: Zhiqing(Susan)
   last_name: Qu
   picture: Quzhiqing.jpg
 fundraising:
-  first_name: Wanhua
+  first_name: Wanhua(Julia)
   last_name: Wang
   picture: Wangwanhua.jpg
