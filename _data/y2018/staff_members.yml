@@ -9,10 +9,10 @@ secretary:
 treasurer:
   - first_name: Wenjing
     last_name: Zhang
-    picture: ZiqiFeng.jpg
+    picture: Zhangwenjing.jpg
   - first_name: Ziqi
     last_name: Feng
-    picture: Olivia.jpg
+    picture: ZiqiFeng.jpg
 media_director:
   first_name: Yujin(Helen)
   last_name: Gu
