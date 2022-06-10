@@ -1,51 +1,44 @@
 president:
-  first_name: Haohui(Susana)
-  last_name: Bao
-  picture: Baohaohui.jpg
+  first_name: Xiaoyu(Shery)
+  last_name: Guan
+  picture: Guanxiaoyu.jpg
 secretary:
-  first_name: Wenchun(Gloria)
-  last_name: Zhang
-  picture: Zhangwenchun.jpg
+  first_name: Yuanyuan
+  last_name: Yang
+  picture: orig.jpg
 treasurer:
-  - first_name: Wenjing
-    last_name: Zhang
-    picture: Zhangwenjing.jpg
   - first_name: Ziqi
     last_name: Feng
-    picture: ZiqiFeng.jpg
+    picture: ziqiF.jpg
 media_director:
   first_name: Yujin(Helen)
   last_name: Gu
   picture: YujinGu.jpg
 student_service:
-  first_name: Yixuan
-  last_name: He
-  picture: Heyixuan.jpg
+  first_name: Ruijie
+  last_name: Mao
+  picture: ruijieM.jpg
 it_director:
   first_name: Xin
   last_name: Hai
   picture: Haixin.jpg
 event_planning:
-  first_name: Xiaoyu(Shery)
-  last_name: Guan
-  picture: Guanxiaoyu.jpg
+  first_name: Peiran
+  last_name: Bian
+  picture: orig.jpg
 campus_outreach:
-  first_name: Zhiqing(Susan)
-  last_name: Qu
-  picture: Quzhiqing.jpg
+  first_name: Ningyu
+  last_name: Wu
+  picture: orig.jpg
 public_relations:
-  first_name: Wanhua(Julia)
-  last_name: Wang
-  picture: Wangwanhua.jpg
+  first_name: Yingying
+  last_name: Zhang
+  picture: orig.jpg
 vice_president_interior:
-  first_name: Yuecong
-  last_name: Shen
+  first_name: JiaYi
+  last_name: Zhang
   picture: orig.png
 vice_president_foreign:
   first_name: Wanhua(Julia)
   last_name: Wang
   picture: Wangwanhua.jpg
-vice_president_newmedia:
-  first_name: Xinyue(Serena)
-  last_name: Wang
-  picture: Wangxinyue.jpg
