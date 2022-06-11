@@ -2,10 +2,18 @@ president:
   first_name: Xiaoyu(Shery)
   last_name: Guan
   picture: Guanxiaoyu.jpg
+vice_president_interior:
+  first_name: JiaYi
+  last_name: Zhang
+  picture: jiayiZ.jpg
+vice_president_foreign:
+  first_name: Yingfei
+  last_name: Wang
+  picture: orig.png
 secretary:
   first_name: Yuanyuan
   last_name: Yang
-  picture: orig.jpg
+  picture: orig.png
 treasurer:
   - first_name: Ziqi
     last_name: Feng
@@ -23,22 +31,14 @@ it_director:
   last_name: Hai
   picture: Haixin.jpg
 event_planning:
-  first_name: Peiran
+  first_name: Peiran(Vivian)
   last_name: Bian
-  picture: orig.jpg
+  picture: peiranB.jpg
 campus_outreach:
   first_name: Ningyu
   last_name: Wu
-  picture: orig.jpg
-public_relations:
-  first_name: Yingying
-  last_name: Zhang
-  picture: orig.jpg
-vice_president_interior:
-  first_name: JiaYi
-  last_name: Zhang
   picture: orig.png
-vice_president_foreign:
-  first_name: Wanhua(Julia)
-  last_name: Wang
-  picture: Wangwanhua.jpg
+public_relations:
+  first_name: Yingying(Cath)
+  last_name: Zhang
+  picture: yingyingZ.jpg
