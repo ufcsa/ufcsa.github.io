@@ -9,11 +9,11 @@ vice_president_interior:
 vice_president_foreign:
   first_name: Yingfei
   last_name: Wang
-  picture: orig.png
+  picture: unknown.jpg
 secretary:
   first_name: Yuanyuan
   last_name: Yang
-  picture: orig.png
+  picture: unknown.jpg
 treasurer:
   - first_name: Ziqi
     last_name: Feng
@@ -37,7 +37,7 @@ event_planning:
 campus_outreach:
   first_name: Ningyu
   last_name: Wu
-  picture: orig.png
+  picture: unknown.jpg
 public_relations:
   first_name: Yingying(Cath)
   last_name: Zhang
