@@ -24,10 +24,10 @@ permalink: /about/staff/
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-2 col-sm-offset-0">
+			<div class="col-sm-3 col-sm-offset-3">
 				<img
 					class="circular-img"
-					width="100px"
+					width="150px"
 					src="/assets/people/{{ staff_members.vice_president_interior.picture }}"
 				/><br />
 				<p>
@@ -38,11 +38,10 @@ permalink: /about/staff/
 					<strong>副主席-内务</strong>
 				</p>
 			</div>
-
-			<div class="col-sm-2">
+			<div class="col-sm-3 ">
 				<img
 					class="circular-img"
-					width="100px"
+					width="150px"
 					src="/assets/people/{{ staff_members.vice_president_foreign.picture }}"
 				/><br />
 				<p>
@@ -53,11 +52,12 @@ permalink: /about/staff/
 					<strong>副主席-外务</strong>
 				</p>
 			</div>
-
-			<div class="col-sm-2">
+		</div>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-2">
 				<img
 					class="circular-img"
-					width="100px"
+					width="150px"
 					src="/assets/people/{{ staff_members.secretary.picture }}"
 				/><br />
 				<p>
@@ -67,25 +67,19 @@ permalink: /about/staff/
 					<strong>秘书</strong>
 				</p>
 			</div>
-
-			<div class="col-sm-2">
+			{% for treasurer in staff_members.treasurer %}
+			<div class="col-sm-3">
 				<img
 					class="circular-img"
-					width="100px"
-					src="/assets/people/{{ staff_members.treasurer.picture }}"
+					width="150px"
+					src="/assets/people/{{ treasurer.picture }}"
 				/><br />
 				<p>
-					{{ staff_members.treasurer.first_name }} {{ 
-					staff_members.treasurer.last_name }}<br />
+					{{ treasurer.first_name }} {{ treasurer.last_name }}<br />
 					<span class="times-bold-font">Treasurer</span><br />
 					<strong>财长</strong>
 				</p>
 			</div>
-		</div>
-		<div class="row">
-			
-			{% for treasurer in staff_members.treasurer %}
-			
 			{% endfor %}
 		</div>
 		<div class="row">
