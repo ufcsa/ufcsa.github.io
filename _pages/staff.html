@@ -38,7 +38,8 @@ permalink: /about/staff/
 					<strong>副主席-内务</strong>
 				</p>
 			</div>
-			<div class="col-sm-offset-5.5">
+
+			<div class="col-sm-3">
 				<img
 					class="circular-img"
 					width="150px"
@@ -52,9 +53,8 @@ permalink: /about/staff/
 					<strong>副主席-外务</strong>
 				</p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-3 col-sm-offset-3">
+
+			<div class="col-sm-3 ">
 				<img
 					class="circular-img"
 					width="150px"
@@ -67,8 +67,8 @@ permalink: /about/staff/
 					<strong>秘书</strong>
 				</p>
 			</div>
-			{% for treasurer in staff_members.treasurer %}
-			<div class="col-sm-offset-5.5">
+
+			<div class="col-sm-3">
 				<img
 					class="circular-img"
 					width="150px"
@@ -80,6 +80,11 @@ permalink: /about/staff/
 					<strong>财长</strong>
 				</p>
 			</div>
+		</div>
+		<div class="row">
+			
+			{% for treasurer in staff_members.treasurer %}
+			
 			{% endfor %}
 		</div>
 		<div class="row">
