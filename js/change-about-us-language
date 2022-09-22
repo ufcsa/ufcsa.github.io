@@ -1,0 +1,21 @@
+//Create user interaction for changing language for about us on homepage
+
+  
+function changeLanguage() {
+
+    var elemCN = document.getElementById('AboutUsCN');
+    var elemEN = document.getElementById('AboutUsEN');
+
+
+    if (elemCN.style.display === 'none' && elemEN.style.display === 'block') {
+        elemCN.style.display = 'block';
+        elemEN.style.display = 'none';
+    } else if (elemCN.style.display === 'block' && elemEN.style.display === 'none') {
+        elemCN.style.display = 'none';
+        elemEN.style.display = 'block';
+    } else {
+        elemCN.style.display = 'none';
+        elemEN.style.display = 'block';
+    }
+
+}
